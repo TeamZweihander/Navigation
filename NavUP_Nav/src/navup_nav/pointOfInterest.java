@@ -18,10 +18,6 @@ public class pointOfInterest {
 
     public  Statement stmt;
     
-    /*public void getCoordinates(String lat, String lng){
-        
-    }*/
-    
         public void savePoint(Connection conn, String lat, String lng){
             
             try{
