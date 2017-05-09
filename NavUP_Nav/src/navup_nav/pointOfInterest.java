@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+ 
 package navup_nav;
 
 /**
@@ -21,16 +22,10 @@ public class pointOfInterest {
         public void savePoint(Connection conn, String lat, String lng){
             
             try{
-                System.out.println("Adding....");
                stmt = conn.createStatement();
-               
-               System.out.println("11");
                
                String sql = "INSERT INTO pointofinterest" +
                    " VALUES(" + lat + "," + lng + ")";
-               System.out.println("111111");
-               stmt.executeUpdate(sql);
-               System.out.println(sql);
             }
             catch(Exception e){
                 System.out.print(e.toString());
