@@ -10,7 +10,7 @@ package com.zweihander.navup.navigation.domain;
  */
 import javax.persistence.*;
 
-public class routePreferences {
+public class RoutePreferences {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -4,7 +4,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 import com.zweihander.navup.navigation.domain.POI;
+import com.zweihander.navup.navigation.domain.RoutePreferences;
 import com.zweihander.navup.navigation.service.NavigationService;
+import com.zweihander.navup.navigation.service.RoutePreferencesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.ModelMap;
@@ -15,6 +17,9 @@ public class NavigationController
 {
     @Autowired
     NavigationService navigationService;
+    
+    @Autowired
+    RoutePreferencesService rfs;
 
     @RequestMapping(value ="/addPOI", method = RequestMethod.POST)
     public ResponseEntity addLocation(POI poi) {
@@ -38,6 +43,18 @@ public class NavigationController
     public ResponseEntity getPOI(POI poi){
         navigationService.getPOI(poi.getUsername(), poi.getLongitude(), poi.getLatitude());
         return ResponseEntity.ok("retrieved POI");
+    }
+    
+    @RequestMapping(value ="/setRoutePreferences", method = RequestMethod.POST)
+    public ResponseEntity setRoutePreference(RoutePreferences rf) {
+            rfs.setRoutePreferences(rf.getUsername(), rf.getavoidTraffic(), rf.getAvoidStairs(), rf.gettmodeOfTravel());
+            return ResponseEntity.ok("Route preference added to database");
+    }
+    
+    @RequestMapping(value ="/getRoutePreferences", method = RequestMethod.GET)
+    public ResponseEntity getRoutePreference(RoutePreferences rf) {
+            rfs.getRoutePreferences(rf.getUsername());
+            return ResponseEntity.ok("Route preference retrived from database");
     }
 
 }

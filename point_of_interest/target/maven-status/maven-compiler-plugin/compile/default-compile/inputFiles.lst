@@ -1,8 +1,8 @@
-C:\Users\User\Documents\NetBeansProjects\navigation\src\main\java\com\zweihander\navup\navigation\controllers\NavigationController.java
-C:\Users\User\Documents\NetBeansProjects\navigation\src\main\java\com\zweihander\navup\navigation\domain\Location.java
-C:\Users\User\Documents\NetBeansProjects\navigation\src\main\java\com\zweihander\navup\navigation\NavigationApplication.java
-C:\Users\User\Documents\NetBeansProjects\navigation\src\main\java\com\zweihander\navup\navigation\domain\POI.java
-C:\Users\User\Documents\NetBeansProjects\navigation\src\main\java\com\zweihander\navup\navigation\service\INavigationService.java
-C:\Users\User\Documents\NetBeansProjects\navigation\src\main\java\com\zweihander\navup\navigation\domain\Route.java
-C:\Users\User\Documents\NetBeansProjects\navigation\src\main\java\com\zweihander\navup\navigation\repository\POIRepository.java
-C:\Users\User\Documents\NetBeansProjects\navigation\src\main\java\com\zweihander\navup\navigation\service\NavigationService.java
+C:\Users\Lindelo\Documents\GitHub\navigation\point_of_interest\src\main\java\com\zweihander\navup\navigation\domain\POI.java
+C:\Users\Lindelo\Documents\GitHub\navigation\point_of_interest\src\main\java\com\zweihander\navup\navigation\service\NavigationService.java
+C:\Users\Lindelo\Documents\GitHub\navigation\point_of_interest\src\main\java\com\zweihander\navup\navigation\controllers\NavigationController.java
+C:\Users\Lindelo\Documents\GitHub\navigation\point_of_interest\src\main\java\com\zweihander\navup\navigation\service\INavigationService.java
+C:\Users\Lindelo\Documents\GitHub\navigation\point_of_interest\src\main\java\com\zweihander\navup\navigation\domain\Location.java
+C:\Users\Lindelo\Documents\GitHub\navigation\point_of_interest\src\main\java\com\zweihander\navup\navigation\NavigationApplication.java
+C:\Users\Lindelo\Documents\GitHub\navigation\point_of_interest\src\main\java\com\zweihander\navup\navigation\repository\POIRepository.java
+C:\Users\Lindelo\Documents\GitHub\navigation\point_of_interest\src\main\java\com\zweihander\navup\navigation\domain\Route.java
