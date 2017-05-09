@@ -1,0 +1,8 @@
+com\zweihander\navup\navigation\controllers\NavigationController.class
+com\zweihander\navup\navigation\domain\POI.class
+com\zweihander\navup\navigation\domain\Location.class
+com\zweihander\navup\navigation\domain\Route.class
+com\zweihander\navup\navigation\repository\POIRepository.class
+com\zweihander\navup\navigation\service\NavigationService.class
+com\zweihander\navup\navigation\service\INavigationService.class
+com\zweihander\navup\navigation\NavigationApplication.class
